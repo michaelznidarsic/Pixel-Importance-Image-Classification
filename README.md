@@ -7,13 +7,21 @@ The following graph shows the SHAP values of 20 validation images linked to 200 
 
 There are some curious insights to be gained just by looking at the pixel patterns. Flat horizons seem to be telltale signs of seascapes. Small gaps of sky between trees seem to be indicating forest scenes.
 
+
 ![alt text](https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20OUTPUT1.png?raw=true)
+
 
 The model's architecture is a simplified derivation of VGG16. Dropout and L2 normalization are applied on the fully connected layers.
 
-![alt text](https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20ARCHITECTURE1.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20ARCHITECTURE1.png" />
+</p>
+
 
 The confusion matrix of the model's validation predictions shows that buildings/streets and glaciers/mountains are the most confused pairs of classes. This is fairly intuitive. The observed validation accuracy of this iteration was 85.97%.
 
-![alt text](https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20CM1.png?raw=true)
 
+<p align="center">
+  <img src="https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20CM1.png" />
+</p>
