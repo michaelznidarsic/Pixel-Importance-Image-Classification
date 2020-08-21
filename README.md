@@ -13,7 +13,7 @@ The model's architecture is a simplified derivation of VGG16. Dropout and L2 nor
 
 ![alt text](https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20ARCHITECTURE1.png?raw=true)
 
-The confusion matrix of the model's validation predictions are buildings/streets and glaciers/mountains are the most confused pairs of classes. This is fairly intuitive. The observed validation accuracy of this iteration was 85.97%.
+The confusion matrix of the model's validation predictions shows that buildings/streets and glaciers/mountains are the most confused pairs of classes. This is fairly intuitive. The observed validation accuracy of this iteration was 85.97%.
 
 ![alt text](https://github.com/michaelznidarsic/Pixel-Importance-Image-Classification/blob/master/SHAP%20CM1.png?raw=true)
 
